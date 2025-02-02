@@ -14,3 +14,5 @@ C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\FirstKv
 C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\FirstKval.genruntimeconfig.cache
 C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\ref\FirstKval.dll
 C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\FirstKval.MainForm.resources
+C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\FirstKval.Properties.Resources.resources
+C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\FirstKval.sourcelink.json

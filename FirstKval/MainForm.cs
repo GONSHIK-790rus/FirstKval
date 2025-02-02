@@ -19,16 +19,42 @@ public partial class MainForm : Form {
 
     private void PartnerCard_Click(object? sender, EventArgs e) {
         Panel panel = sender as Panel;
-        Control control = new();
 
-        var label = panel.Controls.Find("TitleLabel", true).FirstOrDefault() as Label;
-        if (label != null)
-            ReplaceText(label);
+        foreach (var label in panel.Controls) {
+            ReplaceText(label as Label);
+        }
+
+        GUID_TextBox.Text = Guid.NewGuid().ToString();
     }
 
     private void ReplaceText(Label label) {
-        TypeOfTitleForEdit_TextBox.Text = label.Text.Split(" |")[0];
-        CompanyOfTitleForEdit_TextBox.Text = label.Text.Split("| ")[1];
+        switch (label.Name){
+            case "TitleLabel":
+                Text = label.Text;
+                TypeOfTitleForEdit_TextBox.Text = Text.Split(" |")[0];
+                CompanyOfTitleForEdit_TextBox.Text = Text.Split("| ")[1];
+                break;
+
+            case "DirectorLabel":
+                Director_TextBox.Text = label.Text;
+                break;
+
+            case "PhoneNumberLabel":
+                PhoneNumber_TextBox.Text = label.Text;
+                break;
+
+            case "RatingLabel":
+                Rating_TextBox.Text = label.Text.Split("Рейтинг: ")[1];
+                break;
+
+            case "DiscountLabel":
+                DiscountValue_Label.Text = label.Text;
+                break;
+
+            case "NumOfSoldProducts":
+                SoldProd_TextBox.Text = label.Text;
+                break;
+        }
     }
 
     private List<Partner> GetPartnersList() {
@@ -36,7 +62,7 @@ public partial class MainForm : Form {
     }
 
     private List<Partner> InitPartnerList() {
-        return new List<Partner> {
+        return [
             new() {
                 Type = "Водоснабжение",
                 CompanyName = "Теодора",
@@ -81,6 +107,6 @@ public partial class MainForm : Form {
                 Rating = 9.2F,
                 Discount = 7
             }
-        };
+        ];
     }
 }

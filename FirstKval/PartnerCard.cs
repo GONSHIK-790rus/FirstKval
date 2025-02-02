@@ -18,12 +18,17 @@ internal class PartnerCard {
         Label phoneLabel = CreatePhoneNumberLabel(partner.PhoneNumber);
         Label ratingLabel = CreateRatingLabel(partner.Rating);
         Label discountLabel = CreateDiscountLabel(partner.Discount);
+        Label numOfSoldProdLabel = CreateNumOfSoldProdLabel(partner.NumOfSoldProducts);
 
         card.Controls.Add(titleLabel);
         card.Controls.Add(directorLabel);
         card.Controls.Add(phoneLabel);
         card.Controls.Add(ratingLabel);
         card.Controls.Add(discountLabel);
+        card.Controls.Add(numOfSoldProdLabel);
+
+        card.MouseEnter += Control_MouseEnter;
+        card.MouseLeave += Control_MouseLeave;
 
         return card;
     }
@@ -31,7 +36,7 @@ internal class PartnerCard {
     private Panel CreatePanel() {
         return new Panel {
             BorderStyle = BorderStyle.FixedSingle,
-            Size = new Size(475, 120),
+            Size = new Size(475, 110),
             Margin = new Padding(15),
             BackColor = Color.FromArgb(100, 100, 100)
         };
@@ -86,5 +91,26 @@ internal class PartnerCard {
             Location = new Point(400, 10),
             AutoSize = true
         };
+    }
+
+    private Label CreateNumOfSoldProdLabel(uint numOfSoldProd) {
+        return new Label {
+            Name = "NumOfSoldProducts",
+            Text = numOfSoldProd.ToString(),
+            Font = new Font("Arial", 13),
+            Location = new Point(10, 95),
+            AutoSize = true,
+            Visible = false
+        };
+    }
+
+    private void Control_MouseEnter(object? sender, EventArgs e) {
+        var card = sender as Panel;
+        card.Cursor = Cursors.Hand;
+    }
+
+    private void Control_MouseLeave(object? sender, EventArgs e) {
+        var card = sender as Panel;
+        card.Cursor = Cursors.Default;
     }
 }
