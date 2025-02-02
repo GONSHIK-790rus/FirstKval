@@ -82,7 +82,7 @@ internal class PartnerCard {
         };
     }
 
-    private Label CreateDiscountLabel(ushort discount) {
+    private Label CreateDiscountLabel(short discount) {
         return new Label {
             Name = "DiscountLabel",
             Text = discount + "%",

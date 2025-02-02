@@ -7,6 +7,6 @@ internal class Partner {
     public required string DirectorName { get; set; }
     public required string PhoneNumber { get; set; }
     public required float Rating { get; set; } = 0.0F;
-    public required byte Discount { get; set; } = 0;
+    public required short Discount { get; set; } = 0;
     public uint NumOfSoldProducts { get; set; } = 0;
 }

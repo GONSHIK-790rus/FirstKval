@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\partnercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\partnercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|C:\\Users\\pilyu\\source\\repos\\FirstKval\\firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,34 +30,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs",
               "RelativeDocumentMoniker": "FirstKval\\MainForm.cs",
-              "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "FirstKval\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FirstKval\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-28T13:44:02.041Z",
-              "IsPinned": true,
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2025-02-02T15:15:07.138Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs",
               "RelativeDocumentMoniker": "FirstKval\\MainForm.cs",
-              "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs*",
-              "RelativeToolTip": "FirstKval\\MainForm.cs*",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBsAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs",
+              "RelativeToolTip": "FirstKval\\MainForm.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswEQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T11:23:54.688Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -63,23 +65,33 @@
               "RelativeDocumentMoniker": "FirstKval\\PartnerCard.cs",
               "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\PartnerCard.cs",
               "RelativeToolTip": "FirstKval\\PartnerCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwDIAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T10:55:48.918Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-01T10:55:48.918Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Partner.cs",
               "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\Partner.cs",
               "RelativeDocumentMoniker": "FirstKval\\Partner.cs",
               "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\Partner.cs",
               "RelativeToolTip": "FirstKval\\Partner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T12:39:56.546Z",
+              "WhenOpened": "2025-02-02T12:39:56.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "FirstKval\\DataBaseContext.cs",
+              "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\DataBaseContext.cs",
+              "RelativeToolTip": "FirstKval\\DataBaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T13:28:29.831Z",
               "EditorCaption": ""
             }
           ]
