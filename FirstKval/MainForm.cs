@@ -1,3 +1,5 @@
+using System.Text.RegularExpressions;
+
 namespace FirstKval;
 
 public partial class MainForm : Form {
@@ -17,18 +19,46 @@ public partial class MainForm : Form {
         }
     }
 
+    EditForm editForm;
     private void PartnerCard_Click(object? sender, EventArgs e) {
         Panel panel = sender as Panel;
+        Guid id = Guid.NewGuid();
 
-        foreach (var label in panel.Controls) {
-            ReplaceText(label as Label);
+        foreach (Control control in panel.Controls) {
+            if (control.Name != "Id_Label")
+                continue;
+            id = Guid.Parse((control as Label).Text);
         }
 
-        GUID_TextBox.Text = Guid.NewGuid().ToString();
+        Partner currentPartner = _partners.FirstOrDefault(partner => partner.Id == id);
+        editForm = new EditForm(currentPartner);
+        editForm.ShowDialog();
+
+        Partner partner = editForm.returnedPartner;
+        TypeOfTitleForEdit_TextBox.Text = partner.Type;
+
+        UpdateCards(panel, partner);
+        InitPartnerList();
+    }
+
+    private void EditForm_FormClosed(object? sender, FormClosedEventArgs e) {
+        var returnedPartner = editForm.returnedPartner;
+
+        TypeOfTitleForEdit_TextBox.Text = returnedPartner.Type;
+    }
+
+    private void UpdateCards(Panel panel, Partner partner) {
+        foreach (Control control in panel.Controls) {
+            Label label = control as Label;
+            if (label.Name == "TitleLabel") {
+                label.Text = $"{partner.Type} | {partner.DirectorName}";
+                break;
+            }
+        }
     }
 
     private void ReplaceText(Label label) {
-        switch (label.Name){
+        switch (label.Name) {
             case "TitleLabel":
                 Text = label.Text;
                 TypeOfTitleForEdit_TextBox.Text = Text.Split(" |")[0];
@@ -57,16 +87,35 @@ public partial class MainForm : Form {
         }
     }
 
-    private List<Partner> GetPartnersList() {
-        return InitPartnerList();
+    private bool IsDigits(string text) {
+        return !new Regex("/d").IsMatch(text);
     }
 
-    private List<Partner> InitPartnerList() {
+    private List<Partner>? GetPartnersList() {
+        InitPartnerList();
+        return _partners;
+    }
+
+    private List<Partner> _partners;
+    private void InitPartnerList() {
         using (var dbContext = new DataBaseContext()) {
             if (!dbContext.Partners.Any())
-                return null;
+                return;
 
-            return dbContext.Partners.ToList();
+            _partners = dbContext.Partners.ToList();
         }
+    }
+
+    private void SoldProd_TextBox_KeyPress(object sender, KeyPressEventArgs e) {
+        if (IsDigits(SoldProd_TextBox.Text)) {
+            try {
+                DiscountValue_Label.Text = DiscountCalculate.GetDiscount(uint.Parse(SoldProd_TextBox.Text)).ToString() + "%";
+            }
+            catch {
+                DiscountValue_Label.Text = "0%";
+            }
+        }
+        else
+            DiscountValue_Label.Text = "0%";
     }
 }

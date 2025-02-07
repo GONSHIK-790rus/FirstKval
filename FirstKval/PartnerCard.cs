@@ -19,6 +19,7 @@ internal class PartnerCard {
         Label ratingLabel = CreateRatingLabel(partner.Rating);
         Label discountLabel = CreateDiscountLabel(partner.Discount);
         Label numOfSoldProdLabel = CreateNumOfSoldProdLabel(partner.NumOfSoldProducts);
+        Label guidLabel = CreateGuidLabel(partner.Id);
 
         card.Controls.Add(titleLabel);
         card.Controls.Add(directorLabel);
@@ -26,6 +27,7 @@ internal class PartnerCard {
         card.Controls.Add(ratingLabel);
         card.Controls.Add(discountLabel);
         card.Controls.Add(numOfSoldProdLabel);
+        card.Controls.Add(guidLabel);
 
         card.MouseEnter += Control_MouseEnter;
         card.MouseLeave += Control_MouseLeave;
@@ -101,6 +103,17 @@ internal class PartnerCard {
             Location = new Point(10, 95),
             AutoSize = true,
             Visible = false
+        };
+    }
+
+    private Label CreateGuidLabel(Guid id) {
+        return new Label {
+            Name = "Id_Label",
+            Text = id.ToString(),
+            Font = new Font("Arial", 13),
+            Location = new Point(10, 115),
+            AutoSize = true,
+            Visible = false,
         };
     }
 

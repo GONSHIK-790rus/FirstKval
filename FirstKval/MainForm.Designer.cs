@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             partnersLayoutPanel = new FlowLayoutPanel();
+            Tip_Label = new Label();
             TypeOfTitleForEdit_TextBox = new TextBox();
             CompanyOfTitleForEdit_TextBox = new TextBox();
             MainPanel = new Panel();
@@ -47,7 +48,7 @@
             SoldProd_TextBox = new TextBox();
             SoldProd_Label = new Label();
             DiscountValue_Label = new Label();
-            GUID_TextBox = new TextBox();
+            partnersLayoutPanel.SuspendLayout();
             MainPanel.SuspendLayout();
             SuspendLayout();
             // 
@@ -55,11 +56,22 @@
             // 
             partnersLayoutPanel.AutoScroll = true;
             partnersLayoutPanel.BorderStyle = BorderStyle.FixedSingle;
+            partnersLayoutPanel.Controls.Add(Tip_Label);
             partnersLayoutPanel.Dock = DockStyle.Left;
             partnersLayoutPanel.Location = new Point(0, 110);
             partnersLayoutPanel.Name = "partnersLayoutPanel";
             partnersLayoutPanel.Size = new Size(527, 426);
             partnersLayoutPanel.TabIndex = 0;
+            // 
+            // Tip_Label
+            // 
+            Tip_Label.AutoSize = true;
+            Tip_Label.ForeColor = SystemColors.Highlight;
+            Tip_Label.Location = new Point(3, 0);
+            Tip_Label.Name = "Tip_Label";
+            Tip_Label.Size = new Size(304, 15);
+            Tip_Label.TabIndex = 0;
+            Tip_Label.Text = "* Нажмите на карточку чтобы редактировать/удалить";
             // 
             // TypeOfTitleForEdit_TextBox
             // 
@@ -188,6 +200,7 @@
             SoldProd_TextBox.Name = "SoldProd_TextBox";
             SoldProd_TextBox.Size = new Size(170, 23);
             SoldProd_TextBox.TabIndex = 14;
+            SoldProd_TextBox.KeyPress += SoldProd_TextBox_KeyPress;
             // 
             // SoldProd_Label
             // 
@@ -207,20 +220,12 @@
             DiscountValue_Label.TabIndex = 16;
             DiscountValue_Label.Text = "0%";
             // 
-            // GUID_TextBox
-            // 
-            GUID_TextBox.Location = new Point(666, 448);
-            GUID_TextBox.Name = "GUID_TextBox";
-            GUID_TextBox.Size = new Size(244, 23);
-            GUID_TextBox.TabIndex = 17;
-            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(70, 70, 70);
+            BackColor = Color.FromArgb(40, 40, 40);
             ClientSize = new Size(1041, 536);
-            Controls.Add(GUID_TextBox);
             Controls.Add(DiscountValue_Label);
             Controls.Add(SoldProd_Label);
             Controls.Add(SoldProd_TextBox);
@@ -240,6 +245,8 @@
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "MainForm";
             Text = "Список партнеров";
+            partnersLayoutPanel.ResumeLayout(false);
+            partnersLayoutPanel.PerformLayout();
             MainPanel.ResumeLayout(false);
             ResumeLayout(false);
             PerformLayout();
@@ -266,6 +273,6 @@
         private TextBox SoldProd_TextBox;
         private Label SoldProd_Label;
         private Label DiscountValue_Label;
-        private TextBox GUID_TextBox;
+        private Label Tip_Label;
     }
 }

@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\discountcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\discountcalculate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\partnercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\partnercard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|C:\\Users\\pilyu\\source\\repos\\FirstKval\\firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|c:\\users\\pilyu\\source\\repos\\firstkval\\firstkval\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90308E7A-97F3-43AD-91BB-2EBC6E2585BC}|FirstKval\\FirstKval.csproj|solutionrelative:firstkval\\partner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs",
               "RelativeDocumentMoniker": "FirstKval\\MainForm.cs",
@@ -42,54 +54,98 @@
               "RelativeToolTip": "FirstKval\\MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T15:15:07.138Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs",
               "RelativeDocumentMoniker": "FirstKval\\MainForm.cs",
               "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\MainForm.cs",
               "RelativeToolTip": "FirstKval\\MainForm.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAswEQAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswCsAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-01T11:23:54.688Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\EditForm.cs",
+              "RelativeDocumentMoniker": "FirstKval\\EditForm.cs",
+              "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "FirstKval\\EditForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:58:14.356Z",
+              "IsPinned": true,
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EditForm.cs",
+              "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\EditForm.cs",
+              "RelativeDocumentMoniker": "FirstKval\\EditForm.cs",
+              "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\EditForm.cs",
+              "RelativeToolTip": "FirstKval\\EditForm.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA1wBgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T14:59:30.606Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PartnerCard.cs",
               "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\PartnerCard.cs",
               "RelativeDocumentMoniker": "FirstKval\\PartnerCard.cs",
               "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\PartnerCard.cs",
               "RelativeToolTip": "FirstKval\\PartnerCard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwB0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T10:55:48.918Z"
+              "WhenOpened": "2025-02-01T10:55:48.918Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "DiscountCalculate.cs",
+              "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\DiscountCalculate.cs",
+              "RelativeDocumentMoniker": "FirstKval\\DiscountCalculate.cs",
+              "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\DiscountCalculate.cs",
+              "RelativeToolTip": "FirstKval\\DiscountCalculate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-04T13:34:10.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Partner.cs",
               "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\Partner.cs",
               "RelativeDocumentMoniker": "FirstKval\\Partner.cs",
               "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\Partner.cs",
               "RelativeToolTip": "FirstKval\\Partner.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-02T12:39:56.546Z"
+              "WhenOpened": "2025-02-02T12:39:56.546Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "DataBaseContext.cs",
               "DocumentMoniker": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\DataBaseContext.cs",
               "RelativeDocumentMoniker": "FirstKval\\DataBaseContext.cs",
               "ToolTip": "C:\\Users\\pilyu\\source\\repos\\FirstKval\\FirstKval\\DataBaseContext.cs",
               "RelativeToolTip": "FirstKval\\DataBaseContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T13:28:29.831Z",
               "EditorCaption": ""

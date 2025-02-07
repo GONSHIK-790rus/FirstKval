@@ -61,3 +61,4 @@ C:\Users\pilyu\source\repos\FirstKval\FirstKval\bin\Debug\net8.0-windows\runtime
 C:\Users\pilyu\source\repos\FirstKval\FirstKval\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\FirstKval.csproj.AssemblyReference.cache
 C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\FirstKval.csproj.Up2Date
+C:\Users\pilyu\source\repos\FirstKval\FirstKval\obj\Debug\net8.0-windows\FirstKval.EditForm.resources

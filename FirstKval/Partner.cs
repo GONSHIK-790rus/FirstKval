@@ -1,6 +1,6 @@
 ﻿namespace FirstKval;
 
-internal class Partner {
+public class Partner {
     public Guid Id { get; set; }
     public required string Type { get; set; }
     public required string CompanyName { get; set; }
